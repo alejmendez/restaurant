@@ -13,7 +13,7 @@ Este proyecto utiliza PocketBase como backend para gestionar la base de datos y 
 ### 🪟 Windows
 1. Descarga la última versión de PocketBase para Windows desde [pocketbase.io](https://pocketbase.io/docs/)
 2. Extrae el archivo `pocketbase.exe` en la raíz del proyecto
-3. Ejecuta `pocketbase.exe` para iniciar el servidor
+3. Ejecuta `./pocketbase.exe serve` para iniciar el servidor
 4. El servidor estará disponible en `http://127.0.0.1:8090`
 
 ### 🐧 Linux
@@ -25,7 +25,7 @@ Este proyecto utiliza PocketBase como backend para gestionar la base de datos y 
    ```
 4. Ejecuta el servidor:
    ```bash
-   ./pocketbase
+   ./pocketbase serve
    ```
 5. El servidor estará disponible en `http://127.0.0.1:8090`
 
@@ -38,7 +38,7 @@ Este proyecto utiliza PocketBase como backend para gestionar la base de datos y 
    ```
 4. Ejecuta el servidor:
    ```bash
-   ./pocketbase
+   ./pocketbase serve
    ```
 5. El servidor estará disponible en `http://127.0.0.1:8090`
 
